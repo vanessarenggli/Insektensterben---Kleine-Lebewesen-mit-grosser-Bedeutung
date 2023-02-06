@@ -1,0 +1,127 @@
+h1{
+  color: #ffbc20;
+  text-align: center;
+  font-size: 35px;
+  font-family: "GT Super Display";
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.90);
+}
+
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Suisse BP Int'l";
+  font-weight: 400;
+  hyphens: auto;
+  line-height: 110%;
+}
+
+h4{
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Suisse BP Int'l";
+  font-weight: 400;
+  hyphens: auto;
+  line-height: 110%;
+}
+
+.step h3{
+  font-size: 22px;
+  font-family: "GT Super Display";
+  font-weight: 400;
+  text-align: start;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.90);
+  line-height: 110%;
+}
+
+.noscrolly {
+  padding: 0;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.figure {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  left: 0;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.step {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 100vh;
+ /* border: 1px dashed #aaa;*/
+}
+
+.step p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Suisse BP Int'l";
+  font-weight: 400;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+  line-height: 110%;
+  
+}
+
+.step p2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Suisse BP Int'l";
+  font-weight: 400;
+  margin: 0;
+  hyphens: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  line-height: 110%;
+}
+
+
+.step p3 {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Suisse BP Int'l";
+  font-weight: 400;
+  margin: 0;
+  hyphens: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  line-height: 110%;
+}
+
+.step p4 {
+  text-align: center;
+  font-size: 10px;
+  font-family: "GT Super Display";
+  font-weight: 400;
+  margin: 0;
+  hyphens: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  line-height: 110%;
+}
+
+.sticky-img {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  overflow: hidden;
+}
